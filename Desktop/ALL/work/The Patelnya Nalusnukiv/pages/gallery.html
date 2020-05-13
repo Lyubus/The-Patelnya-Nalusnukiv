@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<title>The Patelnya Nalusnukiv</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="icon" href="../img/logo.jpg">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Poppins", sans-serif
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .w3-half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .w3-half img:hover {
+        opacity: 1;
+    }
+</style>
+
+<body>
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">ЗАКРИТИ</a>
+        <div class="w3-container">
+            <h3 class="w3-padding-64"><b>ПАТЕЛЬНЯ<br>НАЛИСНИКІВ</b></h3>
+        </div>
+        <div class="w3-bar-block">
+            <a href="../index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Гловна</a>
+            <a href="../pages/team.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Команда</a>
+            <a href="../pages/gallery.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Галерея</a>
+            <!--            <div class="dropdown">-->
+            <!--                <button class="dropbtn">Галерея</button>-->
+            <!--                <div class="dropdown-content">-->
+            <a href="#f1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Перші фото</a>
+            <a href="#f2" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Кіноніч</a>
+            <a href="#f3" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Пікнік</a>
+            <a href="#f4" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Футбол</a>
+            <a href="#f5" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Озеро</a>
+            <a href="#f6" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Львів</a>
+            <a href="#f7" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Дні народження</a>
+            <a href="#f8" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Crazy Town</a>
+            <a href="#f9" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Говерла</a>
+            <a href="#f10" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Zaxidfest</a>
+            <a href="#f11" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Пейнтбол</a>
+            <a href="#f12" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Нові роки</a>
+            <a href="#f13" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white submen">Парашут</a>
+            <!--                </div>-->
+            <!--            </div>-->
+
+
+            <a href="../pages/video.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Відео</a>
+            <a href="../pages/plans.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Плани</a>
+            <a href="../pages/adventure.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Пригоди</a>
+        </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+        <span>ПАТЕЛЬНЯ НАЛИСНИКІВ</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+    <div class="w3-main" style="margin-left:340px;margin-right:40px">
+        <div class="w3-container" style="margin-top:80px">
+            <h1 class="w3-jumbo"><b>Галерея</b></h1>
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f1"><b>Перші фото.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/1/ded_lyubky_horse.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/1/foot.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/1/g_0IoTzR0GM.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/1/lego.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f2"><b>Кіноніч.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/2/firtsNight.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/2/glQ3Fv565Gs.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/2/LYuCDROI2GU.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/2/nightFilms.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/2/VZ.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/2/VZ(2).jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f3"><b>Пікнік.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/forest/5iTu1ij243g.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/forest/CU7Jj2gyZjc.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/forest/forest.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/forest/mainPage.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/forest/nostalgy.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/forest/OhiSfb9QIk8.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f4"><b>Футбол.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/foot/AFKY-LkmECs.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/foot/DpszAap2ir4.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/foot/uhDX7SPJdDU.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/foot/XG7ZtSlMEZI.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f5"><b>Озеро.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/village/Shgdl20vdKg.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/village/zFQz8d1JZUo.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f6"><b>Львів.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/lviv/9Tr9PjPhHOY.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/lviv/kGu9jDe_3Pk.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/lviv/m961bVN-1EE.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/lviv/Wb8D_LieU7w.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f7"><b>Дні народження.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/birthday/b08okCSXBuc.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/birthday/batyaH.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/birthday/DzFAFibVswI.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/birthday/igFT90la3oM.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/birthday/slavsk.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/birthday/PR37KWAe1iM.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/birthday/peoGk3iIqZM.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/birthday/myHB.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f8"><b>Crazy Town.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/crazy/crazy(2).jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/crazy/crazy.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/crazy/hRHIFF80HI8.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/crazy/pYBFA8vBsP8.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/crazy/VfSRQZ9Bj_I.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/crazy/yh7FqBdIXjo.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f9"><b>Говерла.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/goverla/beat.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/goverla/goverla.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/goverla/I-have-foot.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/goverla/i0jbT7JYPCo.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/goverla/ImWpv4FtoLY.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/goverla/medal.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/goverla/yr-4BWJvtnE.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/goverla/W_FARfP64aQ.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/goverla/rNrEMpNgP7U.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/goverla/mdiyOfOJMos.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+
+                </div>
+            </div>
+
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f10"><b>Zaxidfest.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/zaxid/1ctbFRPsYEc.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/zaxid/NMNg-re5U68.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/zaxid/RtOxpcYS9b8.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/zaxid/zaxid.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f11"><b>Пейнтбол.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/painball/HGrlCzbkqOc.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/painball/paintball.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/painball/QBDIL2ArVn8.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/painball/zxC63Tf5WDg.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/painball/VlzOvkegn5k.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/painball/triQvqOPx2U.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f12"><b>Нові роки.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/newYear/2n_BMjrlSsU.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/newYear/BEwD-I3pRXk.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/newYear/ckB2D7FukLI.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/newYear/ijTOqxpaGw0.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/newYear/NY.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/newYear/NY_new.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/newYear/VjabZjjKYd8.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/newYear/XoUcARXA6qU.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+
+            <h1 class="w3-xxxlarge w3-text-red" id="f13"><b>Парашут.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="../img/fly/flyy.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/fly/plane.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/fly/QJbEOaZe8fw.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+                <div class="w3-half">
+                    <img src="../img/fly/YyP55AhmTYc.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/fly/vVha4WBOCJ0.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                    <img src="../img/fly/rOIArOEclq8.jpg" style="width:100%" onclick="onClick(this)" alt="" title="">
+                </div>
+            </div>
+
+
+            <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+                <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+                <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                    <img id="img01" class="w3-image">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+        <p class="w3-right">Powered by LYUBUS</p>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
